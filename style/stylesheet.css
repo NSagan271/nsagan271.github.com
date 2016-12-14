@@ -178,3 +178,7 @@ img{
 #cov{
   background-image:url('img/loading.gif');
 }
+#wrapper{
+  width:100%;
+  text-align:center;
+}

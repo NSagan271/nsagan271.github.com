@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne|Rubik');
+body{
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  font-family: 'Rubik', sans-serif;
+}
+.cover{
+  position:fixed;
+  width:100%;
+  min-height:100%;
+  top:0px;
+  background-color:rgba(0,0,0,0.85);
+  z-index: -1;
+}
+.content{
+  margin-top:20px;
+  color:white;
+  margin-left:10%;
+  width:80%;
+  margin-bottom:120px;
+}
+.title{
+  font-size:60px;
+  font-family: "Niconne", sans-serif;
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+p{
+  font-size: 24px;
+}
+.pic{
+  border: 7px double #9c0f5f;
+  border-radius: 20%;
+  margin: 0px 20px 20px 0px;
+}
+.nav{
+  width:100%;
+  height:60px;
+  background-color: rgba(156,15,95,0.2);
+}
+.nav ul{
+  height:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  padding: 0px 15px 0px 15px;
+}
+.nav hr{
+  margin-top:0px;
+  line-height:0px;
+}
+.nav ul li{
+  display: inline;
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey;
+  font-size:20px;
+  line-height: 10px;
+  margin-left: -0.5px;
+  height:40px;
+  margin-top:10px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.active{
+  background-color:rgba(96,4,122,0.2);
+}
+li a{
+  text-decoration:none;
+  display: inline-block;
+  padding: 15px 25px;
+  color:lightgray;
+}
+a:visited {
+    text-decoration: none;
+    color:lightgray;
+    text-align: center;
+}
+a:link{
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color:lightgray;
+}
+.anim{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  opacity:.5;
+  position:absolute;
+  z-index: -1;
+}
+.foot, .foot1{
+  position:fixed;
+  bottom:0;
+  text-align:center;
+  height: 80px;
+}
+.foot1{
+  background-color:rgba(4,1,8,1);
+  width:100%;
+}
+.foot ul li{
+  border:none;
+}
+.foot ul li a img{
+  border-radius: 50%;
+  border: 2px lightgray solid;
+  height:74px;
+  width:74px;
+  margin-top:-13px;
+  margin-right:-19px;
+  margin-left:-19px;
+  padding: 3px;
+}
+img{
+  margin-top:0px;
+}
+.project{
+  width:250px;
+  margin: 10px;
+  background-color: #60047a;
+  border-radius:30px;
+  display:inline-block;
+  vertical-align:top;
+  position: relative;
+}
+.project h2{
+  font-size: 35px;
+  font-variant: small-caps;
+  margin-top:5px;
+}
+.project a{
+  text-decoration: underline;
+  color:cyan;
+}
+.project img{
+  width:120px;
+  height:120px;
+  margin-top:20px;
+  margin-left:65px;
+  margin-bottom:0px;
+  border-radius:30%;
+}
+.project .button{
+  border-radius: 0px 0px 30px 30px;
+  height:50px;
+  width:100%;
+  background-color:#c91b26;
+  text-align:center;
+  font-size:30px;
+  line-height:50px;
+  cursor: pointer;
+}
+.info{
+  background-color: #f2671f;
+  margin-bottom:0px;
+  display:none;
+  padding: 3px;
+  font-size: 18px;
+}
+#wide{
+  width:96%;
+  margin-left:2%;
+}

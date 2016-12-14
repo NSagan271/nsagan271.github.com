@@ -175,3 +175,6 @@ img{
   width:96%;
   margin-left:2%;
 }
+#cov{
+  background-image:url('res/loading.gif');
+}

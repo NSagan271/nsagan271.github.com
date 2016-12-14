@@ -177,6 +177,7 @@ img{
 }
 #cov{
   background-image:url('img/loading.gif');
+  height: 500px;
 }
 .wrapper{
   width:100%;

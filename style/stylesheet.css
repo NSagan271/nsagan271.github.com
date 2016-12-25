@@ -181,3 +181,28 @@ img{
   width:100%;
   text-align:center;
 }
+a{
+  color:cyan;
+}
+.link{
+  color:cyan;
+  padding:0;
+}
+table{
+  font-size:130%;
+}
+.icon{
+  height:70px;
+  width:70px;
+  border-radius:30%;
+}
+.cansat{
+  height:150px;
+  border-radius:30px;
+  padding:10px;
+  text-align:center;
+  display:inline-block;
+}
+.caps{
+  font-variant:small-caps;
+}

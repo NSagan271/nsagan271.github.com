@@ -35,10 +35,38 @@ function moveDot(dot, mult){
   move();
 
 }
+function smallScreen(){
+  if ($(window).width()<600){
+    $(".content").css({"width":"96%","margin-left":"2%"});
+    $(".nav ul li").css("width","99%");
+    $(".nav").css("height","210px");
+
+    if ($(window).width()>450){
+      $("p").css("font-size",$(window).width()/25);
+      $(".title").css("font-size",$(window).width()/11);
+    }
+    else{
+      $(".title").css("font-size",(450.0/11));
+      $("p").css("font-size",(450.0/25));
+    }
+  }
+  else{
+    $(".nav ul li").css("width","max-content");
+    $(".nav").css("height","60px");
+    $(".title").css("font-size","60px");
+    $(".content").css({"width":"90%","margin-left":"5%"});
+    $("p").css("font-size","24px");
+  }
+
+}
 //orange, red, magenta, purple, navy
 var col = ["#f2671f","#c91b26","#9c0f5f","#60047a","#160a47"];
 $(window).on("load",function(){
-  for (var i = 0; i <10;i++)moveDot(makeDot(col[i%5],i),1)
+  smallScreen();
+  for (var i = 0; i <10;i++)moveDot(makeDot(col[i%5],i),1);
+});
+$(window).on("resize",function(){
+  smallScreen();
 });
 function visible(id){
   if ($(id).css("display")==="none")$(id).slideDown(600);

@@ -38,8 +38,8 @@ function moveDot(dot, mult){
 function smallScreen(){
   if ($(window).width()<600){
     $(".content").css({"width":"96%","margin-left":"2%"});
-    $(".nav ul li").css("width","99%");
-    $(".nav").css("height","210px");
+    $(".nav:not(.foot) ul li").css("width","99%");
+    $(".nav:not(.foot)").css("height","210px");
 
     if ($(window).width()>450){
       $("p").css("font-size",$(window).width()/25);
@@ -52,13 +52,13 @@ function smallScreen(){
   }
   else{
     $(".nav ul li").css("width","max-content");
-    $(".nav").css("height","60px");
+    $(".nav:not(.foot)").css("height","60px");
     $(".title").css("font-size","60px");
     $(".content").css({"width":"90%","margin-left":"5%"});
     $("p").css("font-size","24px");
   }
-  $(".foot").css("height","80px");
-  $(".foot ul li").css("width","max-content");
+  //$(".foot").css("height","80px");
+  //$(".foot ul li").css("width","max-content");
 
 }
 //orange, red, magenta, purple, navy

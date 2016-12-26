@@ -213,4 +213,13 @@ embed{
   width:800px;
   max-width:90%;
   z-index:10;
+  background-color: white;
+}
+.table{
+  max-width:98%;
+  overflow-x: scroll;
+}
+.tbl{
+  max-width:98%;
+  overflow-x:scroll;
 }

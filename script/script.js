@@ -57,6 +57,8 @@ function smallScreen(){
     $(".content").css({"width":"90%","margin-left":"5%"});
     $("p").css("font-size","24px");
   }
+  $(".foot").css("height","80px");
+  $(".foot ul li").css("width","max-content");
 
 }
 //orange, red, magenta, purple, navy

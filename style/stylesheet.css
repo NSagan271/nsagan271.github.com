@@ -225,3 +225,23 @@ embed{
   max-width:98%;
   overflow-x:scroll;
 }
+.overlay{
+  position: fixed;
+  height:100%;
+  width:100%;
+  background-color:rgba(0,0,0,0.8);
+  top:0;
+  left:0;
+  display:none;
+  overflow:scroll;
+}
+.ex{
+  background-color:rgba(255,40,80,1);
+  position: fixed;
+  padding:5px 10px;
+  border-radius:0 25% 25%;
+  color:white;
+}
+#over_img{
+  margin:35px 10px;
+}

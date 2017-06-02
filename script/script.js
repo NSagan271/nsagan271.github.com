@@ -74,3 +74,11 @@ function visible(id){
   if ($(id).css("display")==="none")$(id).slideDown(600);
   else $(id).slideUp(600);
 }
+
+function openOverlay(img){
+  $(".overlay").css("display","block");
+  $("#over_img").attr("src",img);
+}
+function closeOverlay(){
+  $(".overlay").css("display","none");
+}

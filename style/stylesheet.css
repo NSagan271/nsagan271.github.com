@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne|Rubik');
 body{
   background: url(../img/background.jpg) no-repeat center center fixed;
+  background:black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,7 +50,6 @@ p{
 
 }
 .nav ul{
-  overflow-y: hidden;
   height:100%;
   list-style-type: none;
   margin: 0;
@@ -71,14 +71,34 @@ p{
   height:40px;
   margin-top:10px;
 }
+.nav ul li ul{
+  display:none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width:100%;
+  height:auto;
+  background-color:gray;
+  border: 1px solid darkgray;
+}
+.nav ul li ul li{
+  display:block;
+  border-right:0px;
+  border-bottom: 1px solid darkgrey;
+  padding:0px;
+}
+
 .left{
   float: left;
 }
 .right{
   float: right;
 }
-.active{
+.active, .nav ul li:hover{
   background-color:rgba(96,4,122,0.2);
+}
+.nav ul li ul li:hover{
+  background-color:darkgray;
 }
 li a{
   text-decoration:none;

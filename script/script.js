@@ -82,3 +82,9 @@ function openOverlay(img){
 function closeOverlay(){
   $(".overlay").css("display","none");
 }
+$(".down").on("mouseenter",function(){
+  $(this).children("ul").css("display","block");
+})
+$(".down").on("mouseleave",function(){
+  $(this).children("ul").css("display","none");
+})

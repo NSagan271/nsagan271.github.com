@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne|Rubik');
 body{
   background: url(../img/background.jpg) no-repeat center center fixed;
-  background:black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -94,7 +93,7 @@ p{
 .right{
   float: right;
 }
-.active, .nav ul li:hover{
+.active, .nav ul li.not(.foot):hover{
   background-color:rgba(96,4,122,0.2);
 }
 .nav ul li ul li:hover{

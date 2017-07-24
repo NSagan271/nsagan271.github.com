@@ -46,6 +46,7 @@ p{
   width:100%;
   height:60px;
   background-color: rgba(156,15,95,0.2);
+  position: relative;
 
 }
 .nav ul{
@@ -77,7 +78,7 @@ p{
   padding: 0px;
   width:100%;
   height:auto;
-  background-color:gray;
+  background-color:dimgray;
   border: 1px solid darkgray;
 }
 .nav ul li ul li{
@@ -93,7 +94,7 @@ p{
 .right{
   float: right;
 }
-.active, .nav ul li.not(.foot):hover{
+.active, .left:hover{
   background-color:rgba(96,4,122,0.2);
 }
 .nav ul li ul li:hover{
@@ -105,17 +106,22 @@ li a{
   padding: 15px 25px;
   color:lightgray;
 }
-a:visited {
+a:not(.nav a):visited {
     text-decoration: none;
-    color:lightgray;
+    color:purple;
     text-align: center;
 }
-a:link{
+a:not(.nav a):link{
   text-decoration:none;
+  color:cyan;
 }
 a:hover {
     text-decoration: none;
-    color:lightgray;
+    color:blue;
+}
+.nav ul li a:hover{
+  text-decoration:none;
+  color:white;
 }
 .anim{
   width:10px;
@@ -229,6 +235,15 @@ table{
   display:inline-block;
   cursor: pointer;
 }
+.pi{
+  width:350px;
+  max-width:50%;
+  border-radius:30px;
+  padding:10px;
+  text-align:center;
+  display:inline-block;
+  cursor: pointer;
+}
 .caps{
   font-variant:small-caps;
 }
@@ -254,7 +269,7 @@ embed{
   top:0;
   left:0;
   display:none;
-  overflow:scroll;
+  overflow:hidden;
 }
 .ex{
   background-color:rgba(255,40,80,1);

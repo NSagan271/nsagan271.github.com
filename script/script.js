@@ -51,7 +51,7 @@ function smallScreen(){
     }
   }
   else{
-    $(".nav ul li").css("width","max-content");
+    $(".nav ul li:not(.nav ul li ul li)").css("width","max-content");
     $(".nav:not(.foot)").css("height","60px");
     $(".title").css("font-size","60px");
     $(".content").css({"width":"90%","margin-left":"5%"});

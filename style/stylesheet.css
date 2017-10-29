@@ -39,8 +39,9 @@ p{
   border: 7px double #9c0f5f;
   border-radius: 20%;
   margin: 0px 20px 20px 0px;
-  width:200px;
-  max-width:30%;
+  max-width:250px;
+  width:40%;
+  min-width:100px;
 }
 .nav{
   width:100%;

@@ -123,6 +123,11 @@ a:hover {
   text-decoration:none;
   color:white;
 }
+.center{
+  text-align:center;
+  font-size:30px !important;
+  font-family: "Niconne", sans-serif;
+}
 .anim{
   width:10px;
   height:10px;

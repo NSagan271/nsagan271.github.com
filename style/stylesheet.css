@@ -49,8 +49,8 @@ p{
   height:60px;
   background-color: rgba(156,15,95,0.2);
   position: relative;
-  z-index: 1000
-
+  z-index: 1000;
+  overflow-x: visible;
 }
 .nav ul{
   height:100%;
@@ -59,6 +59,7 @@ p{
   padding: 0;
   width:100%;
   padding: 0px 15px 0px 15px;
+  overflow-y: hidden;
 }
 .nav hr{
   margin-top:0px;

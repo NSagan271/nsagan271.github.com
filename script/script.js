@@ -83,8 +83,10 @@ function closeOverlay(){
   $(".overlay").css("display","none");
 }
 $(".down").on("mouseenter",function(){
+  $(".nav ul").css("overflow-y", "visible");
   $(this).children("ul").css("display","block");
 })
 $(".down").on("mouseleave",function(){
+  $(".nav ul").css("overflow-y", "hidden");
   $(this).children("ul").css("display","none");
 })

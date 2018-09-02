@@ -38,11 +38,11 @@ p{
 .pic{
   border: 7px inset #9c0f5f;
   border-radius: 50%;
-  margin: 0px 20px 20px 0px;
   max-width:250px;
-  width:40%;
+  width:100%;
   min-width:100px;
   cursor:pointer;
+  display: block
 }
 .nav{
   width:100%;
@@ -113,7 +113,7 @@ li a{
 }
 a:not(.nav a):visited {
     text-decoration: none;
-    color:purple;
+    color: #00aaff;
     text-align: center;
 }
 a:not(.nav a):link{
@@ -192,6 +192,37 @@ img{
 .project a{
   text-decoration: underline;
   color:cyan;
+}
+.project a:visited{
+  color: #ffaaff
+}
+
+.info-text{
+  display: inline-block;
+  vertical-align: top;
+  max-width: calc(100% - 110px);
+  min-width: calc(100% - 260px);
+  width: calc(60% - 10px)
+}
+
+.figure{
+  max-width:250px;
+  min-width:100px;
+  width: 40%;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  margin-right: 20px
+}
+
+.figure img{
+  vertical-align: top
+}
+
+.figure figcaption{
+  text-align: center;
+  color: #dddddd;
+  font-style: italic;
 }
 
 .project img{

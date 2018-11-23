@@ -76,7 +76,7 @@ function visible(id){
 }
 
 function openOverlay(img){
-  $(".overlay").css("display","block");
+  $(".overlay").css("display","flex");
   $("#over_img").attr("src",img);
 }
 function closeOverlay(){

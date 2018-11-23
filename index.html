@@ -39,7 +39,7 @@
   <div>
     <div class="figure">
         <img class="pic" align="left" src="img/pic.jpg" onclick = "openOverlay('img/pic.jpg')"/>
-      <figcaption>Photo credit: Selena Tran</figcaption>
+      <figcaption>PC: Jonah Tang</figcaption>
     </div>
   <p>Hi! I'm Naomi Sagan, and I'm an aspiring engineer.
     I'm currently studying Electrical Engineering and Computer Science at UC Berkeley (class of 2022).</p><br>
@@ -60,7 +60,10 @@
   </ul>
 </div>
 <div class = "overlay">
-  <div class = "ex" onClick="closeOverlay();">X</div>
-  <img id = "over_img"/>
+  <div class="overlay-wrapper">
+    <div class = "ex" onClick="closeOverlay();">X</div>
+    <img id = "over_img"/>
+  </div>
+</div>
 </body>
 </html>
